@@ -321,7 +321,7 @@ const EpisodeSelector: React.FC<EpisodeSelectorProps> = ({
           </div>
 
           {/* 集数网格 */}
-          <div className='flex flex-wrap justify-start gap-3 overflow-y-auto h-full pb-4'>
+          <div className='grid grid-cols-[repeat(auto-fill,minmax(48px,1fr))] justify-center gap-2 overflow-y-auto pb-4'>
             {(() => {
               const len = currentEnd - currentStart + 1;
               const episodes = Array.from({ length: len }, (_, i) =>
@@ -338,7 +338,7 @@ const EpisodeSelector: React.FC<EpisodeSelectorProps> = ({
                     e.stopPropagation();
                     handleEpisodeClick(episodeNumber);
                   }}
-                  className={`w-12 h-10 flex items-center justify-center text-sm font-medium rounded-md transition-all duration-200 cursor-pointer border-0 outline-none focus:ring-2 focus:ring-green-400 flex-shrink-0
+                  className={`w-full h-10 flex items-center justify-center text-sm font-medium rounded-md transition-all duration-200 cursor-pointer
                     ${
                       isActive
                         ? 'bg-green-500 text-white shadow-lg shadow-green-500/25 dark:bg-green-600'

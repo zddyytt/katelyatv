@@ -159,6 +159,8 @@ docker run -d \
 
 **配置文件下载地址**: [https://www.mediafire.com/file/xl3yo7la2ci378w/config.json/file](https://www.mediafire.com/file/xl3yo7la2ci378w/config.json/file)
 
+**配置文件Plus下载地址**: [配置文件Plus版本【94片源】](https://www.mediafire.com/file/fbpk1mlupxp3u3v/configplus.json/file)
+
 ##### 📋 配置步骤
 
 1. **下载配置文件**：点击上方链接下载 `config.json` 文件
@@ -308,6 +310,9 @@ docker compose ps
 ##### 方法一：使用推荐配置文件（推荐）
 
 1. **下载配置文件**：[点击下载 config.json](https://www.mediafire.com/file/xl3yo7la2ci378w/config.json/file)
+
+   **配置文件Plus下载地址**: [配置文件Plus版本【94片源】](https://www.mediafire.com/file/fbpk1mlupxp3u3v/configplus.json/file)
+
 2. **修改 docker-compose.yml**：取消注释 volumes 部分
    ```yaml
    # 将这两行的注释去掉
@@ -566,6 +571,9 @@ docker compose -f docker-compose.kvrocks.yml up -d
 #### 方法一：使用推荐配置（推荐）
 
 1. **下载配置文件**：[点击下载 config.json](https://www.mediafire.com/file/xl3yo7la2ci378w/config.json/file)
+
+   **配置文件Plus下载地址**: [配置文件Plus版本【94片源】](https://www.mediafire.com/file/fbpk1mlupxp3u3v/configplus.json/file)
+
 2. **替换仓库配置**：
    - 在你 Fork 的仓库中找到 `config.json` 文件
    - 点击编辑按钮（铅笔图标）
@@ -646,6 +654,9 @@ docker compose -f docker-compose.kvrocks.yml up -d
 ##### 推荐配置方法：
 
 1. **下载配置文件**：[点击下载 config.json](https://www.mediafire.com/file/xl3yo7la2ci378w/config.json/file)
+
+   **配置文件Plus下载地址**: [配置文件Plus版本【94片源】](https://www.mediafire.com/file/fbpk1mlupxp3u3v/configplus.json/file)
+
 2. **更新仓库配置**：
    - 回到你的 GitHub 仓库
    - 找到 `config.json` 文件，点击编辑
@@ -1387,6 +1398,8 @@ KatelyaTV 支持标准的苹果 CMS V10 API 格式。
 我们为用户精心准备了一个经过测试和优化的配置文件：
 
 **📂 配置文件下载链接**: [https://www.mediafire.com/file/xl3yo7la2ci378w/config.json/file](https://www.mediafire.com/file/xl3yo7la2ci378w/config.json/file)
+
+**📂 配置文件Plus下载地址**: [配置文件Plus版本【94片源】](https://www.mediafire.com/file/fbpk1mlupxp3u3v/configplus.json/file)
 
 ### ✨ 配置文件特点
 

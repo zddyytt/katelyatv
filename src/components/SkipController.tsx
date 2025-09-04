@@ -763,7 +763,7 @@ export default function SkipController({
 
       {/* 管理已有片段 - 优化布局避免重叠 */}
       {skipConfig && skipConfig.segments && skipConfig.segments.length > 0 && !isSettingMode && (
-        <div className="fixed bottom-4 right-4 z-[9998] max-w-sm bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm rounded-lg shadow-lg border border-gray-200 dark:border-gray-600 animate-fade-in">
+        <div className="fixed bottom-4 left-4 z-[9998] max-w-sm bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm rounded-lg shadow-lg border border-gray-200 dark:border-gray-600 animate-fade-in">
           <div className="p-3">
             <h4 className="font-medium mb-2 text-gray-900 dark:text-gray-100 text-sm flex items-center">
               <svg className="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
